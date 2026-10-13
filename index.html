@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- A private page to send by link: kept out of search engines. -->
+<meta name="robots" content="noindex, nofollow">
+<title>Souheil Charef Khoudja — Web Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4; margin: 0; }
+  :root { --ink: #14181d; --soft: #4b5563; --line: #d9dde3; --accent: #9a6b3f; --paper: #ffffff; --side: #14181d; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: #e6e8eb; }
+  body { padding: 62px 0 40px; }
+  .bar { position: fixed; inset: 0 0 auto 0; z-index: 5; display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 10px 18px; background: #14181d; color: #e9e6df; font: 500 13px/1.2 'Inter', sans-serif; }
+  .bar a { padding: 10px 16px; border: 1px solid #c79a6b; color: #e5b38c; letter-spacing: .12em; text-transform: uppercase; font-size: 11px; white-space: nowrap; }
+  .fit { width: 210mm; height: 297mm; margin: 0 auto; transform-origin: top center; }
+  .sheet { width: 210mm; height: 297mm; overflow: hidden; background: var(--paper); box-shadow: 0 30px 80px -30px rgb(0 0 0 / .45); display: grid; grid-template-columns: 63mm 1fr; color: var(--ink); font: 400 8.6pt/1.42 'Inter', 'Segoe UI', Arial, sans-serif; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  a { color: inherit; text-decoration: none; }
+
+  /* ---------- Sidebar ---------- */
+  aside { background: var(--side); color: #e9e6df; padding: 13mm 8mm 8mm 10mm; }
+  .mark { width: 15mm; height: 15mm; border: 1px solid #c79a6b; border-radius: 50%; display: grid; place-items: center; font: italic 400 20pt/1 'Instrument Serif', Georgia, serif; color: #e5b38c; margin-bottom: 7mm; }
+  aside h2 { margin: 7.5mm 0 2.6mm; font: 600 6.9pt/1 'Inter', sans-serif; letter-spacing: .22em; text-transform: uppercase; color: #e5b38c; }
+  aside h2:first-of-type { margin-top: 0; }
+  aside p, aside li { margin: 0 0 1.5mm; font-size: 8.3pt; line-height: 1.45; color: #d9d5cc; }
+  aside ul { list-style: none; margin: 0; padding: 0; }
+  aside b { display: block; margin-bottom: .6mm; font-weight: 600; font-size: 8.3pt; color: #fff; }
+  .contact li { word-break: break-word; }
+  .contact span { display: block; font-size: 6.6pt; letter-spacing: .16em; text-transform: uppercase; color: #9a968d; }
+  .skills li { margin-bottom: 2.7mm; }
+
+  /* ---------- Main ---------- */
+  main { padding: 13mm 12mm 8mm 11mm; }
+  h1 { margin: 0; font: 400 33pt/.95 'Instrument Serif', Georgia, serif; letter-spacing: -.01em; }
+  .role { margin: 2.6mm 0 0; font: 600 8pt/1.3 'Inter', sans-serif; letter-spacing: .2em; text-transform: uppercase; color: var(--accent); }
+  .profile { margin: 4.4mm 0 0; padding-bottom: 4.2mm; border-bottom: 1px solid var(--line); font-size: 9pt; line-height: 1.5; color: #2b3138; }
+  main h2 { display: flex; align-items: center; gap: 3mm; margin: 4.2mm 0 2.8mm; font: 600 7.2pt/1 'Inter', sans-serif; letter-spacing: .22em; text-transform: uppercase; color: var(--accent); }
+  main h2::after { content: ''; flex: 1; height: 1px; background: var(--line); }
+  .job { margin-bottom: 3.1mm; break-inside: avoid; }
+  .job__head { display: flex; justify-content: space-between; align-items: baseline; gap: 4mm; }
+  .job h3 { margin: 0; font: 400 13.2pt/1.15 'Instrument Serif', Georgia, serif; }
+  .job__when { flex: none; font: 500 7.3pt/1 'Inter', sans-serif; letter-spacing: .1em; text-transform: uppercase; color: var(--soft); }
+  .job__what { margin: .7mm 0 1.3mm; font: 500 7.9pt/1.35 'Inter', sans-serif; color: var(--soft); }
+  .job ul { margin: 0; padding-left: 3.6mm; }
+  .job li { margin-bottom: .75mm; padding-left: .6mm; }
+  .job li::marker { color: var(--accent); }
+  .link { color: var(--accent); font-weight: 500; }
+  .numbers { display: grid; grid-template-columns: repeat(4, 1fr); margin: 4mm 0 0; border: 1px solid var(--line); }
+  .numbers div { padding: 3mm 2.4mm 2.7mm; text-align: center; }
+  .numbers div + div { border-left: 1px solid var(--line); }
+  .numbers b { display: block; font: 400 19pt/1 'Instrument Serif', Georgia, serif; color: var(--ink); }
+  .numbers span { display: block; margin-top: 1.2mm; font: 500 6.3pt/1.3 'Inter', sans-serif; letter-spacing: .13em; text-transform: uppercase; color: var(--soft); }
+</style>
+</head>
+<body>
+<div class="bar"><span>Souheil Charef Khoudja · CV</span><a href="Souheil-Charef-Khoudja-CV.pdf" download>Download PDF</a></div>
+<div class="fit" id="fit"><div class="sheet">
+
+<aside>
+  <div class="mark">S</div>
+
+  <h2>Contact</h2>
+  <ul class="contact">
+    <li><span>Based in</span>Catania, Italy</li>
+    <li><span>Email</span>souh445@gmail.com</li>
+    <li><span>GitHub</span><a href="https://github.com/Souheilcharefkhoudja">github.com/Souheilcharefkhoudja</a></li>
+  </ul>
+
+  <h2>Core skills</h2>
+  <ul class="skills">
+    <li><b>Front end</b>HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Vite</li>
+    <li><b>Back end and data</b>Node.js, Python, Supabase and PostgreSQL, Firebird SQL, Google Apps Script, REST APIs</li>
+    <li><b>Marketing technology</b>Landing pages, on-page SEO and structured data, Open Graph, lead generation, Instagram messaging automation</li>
+    <li><b>Design</b>Mobile-first layouts, brand-led colour and type, motion and 3D interfaces, bilingual sites</li>
+    <li><b>Delivery</b>Git and GitHub, GitHub Pages, Vercel, AI coding agents (Claude Code)</li>
+  </ul>
+
+  <h2>Languages</h2>
+  <ul class="skills">
+    <li><b>English</b>Fluent</li>
+    <li><b>French</b>Fluent</li>
+    <li><b>Arabic</b>Native</li>
+  </ul>
+
+  <h2>Live work</h2>
+  <ul class="contact">
+    <li><span>Sapio Restaurant</span><a href="https://souheilcharefkhoudja.github.io/sapio-website/">souheilcharefkhoudja.github.io/sapio-website</a></li>
+    <li><span>Street 54</span><a href="https://souheilcharefkhoudja.github.io/street54-website/">souheilcharefkhoudja.github.io/street54-website</a></li>
+    <li><span>Maccarruni</span><a href="https://souheilcharefkhoudja.github.io/maccarruni-website/">souheilcharefkhoudja.github.io/maccarruni-website</a></li>
+  </ul>
+</aside>
+
+<main>
+  <h1>Souheil Charef Khoudja</h1>
+  <p class="role">Web developer · Websites, web apps and automation</p>
+
+  <p class="profile">I design, build and ship complete websites and business tools, from the first layout to the live link. In 2026 I delivered more than 25 projects for restaurants and e-commerce brands: premium bilingual restaurant sites, order-management apps, a chatbot, reporting automation and a lead-generation engine. I work with modern stacks and AI coding agents, which lets me turn a brief into a finished, mobile-ready product in days.</p>
+
+  <div class="numbers">
+    <div><b>25+</b><span>Projects shipped in 2026</span></div>
+    <div><b>49</b><span>Public repositories</span></div>
+    <div><b>178k</b><span>Business listings collected</span></div>
+    <div><b>IT · EN</b><span>Bilingual sites</span></div>
+  </div>
+
+  <h2>Selected work</h2>
+
+  <div class="job">
+    <div class="job__head"><h3>Premium restaurant websites</h3><span class="job__when">Catania · 2026</span></div>
+    <p class="job__what">Design proposals for Sapio (one Michelin star), Street 54 and Maccarruni</p>
+    <ul>
+      <li>Designed and built one-page, bilingual sites with a film hero, a 3D gallery, tasting menus, press and reviews, each themed from the restaurant's own decor.</li>
+      <li>Built a generator that turns a restaurant's public listings into a finished, phone-ready site, with structured data and link previews for search.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job__head"><h3>Nutsa: e-commerce operations suite</h3><span class="job__when">2026</span></div>
+    <p class="job__what">Next.js 15 · TypeScript · Supabase · Tailwind · Vercel</p>
+    <ul>
+      <li>Order-confirmation web app for call agents: secure login, one-tap calling, and automatic hand-off of confirmed orders to the delivery carriers.</li>
+      <li>Client follow-up app for field workers, with an admin dashboard that cross-checks call logs against reported activity.</li>
+      <li>Instagram direct-message bot that answers customers automatically, and product landing pages for several markets.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job__head"><h3>PoP'Way: restaurant reporting and food cost</h3><span class="job__when">2026</span></div>
+    <p class="job__what">Python · Firebird SQL · Google Sheets and Apps Script</p>
+    <ul>
+      <li>Automated a daily sales report: reads the point-of-sale database, joins supplier receipts from Google Sheets, and emails the owners an HTML summary with a CSV.</li>
+      <li>Built a food-cost calculator, profit dashboards and a digital menu.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job__head"><h3>Lead-generation engine</h3><span class="job__when">2026</span></div>
+    <p class="job__what">Node.js · Google Maps data · automated website audits</p>
+    <ul>
+      <li>Collected 178,000 business listings across Italy and audited their websites automatically, producing 71,000 leads with a missing, broken or outdated site.</li>
+      <li>Added scoring to surface high-end businesses by category, rating and review volume.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job__head"><h3>Brand sites and landing pages</h3><span class="job__when">2026</span></div>
+    <p class="job__what">Le New-Yorkais · Sol Companion · fashion and home stores</p>
+    <ul>
+      <li>Le New-Yorkais: brand website, admin panel and franchise landing page. Sol Companion: landing page for an expat-services company (React 19, Tailwind 4).</li>
+      <li>Store pages for fashion and home brands, a delivery app with a map view, stock tools and QR menus.</li>
+    </ul>
+  </div>
+</main>
+</div></div>
+<script>
+  // The sheet is a fixed A4 page: shrink it to fit narrower screens.
+  const fit = document.getElementById('fit');
+  const size = () => { const k = Math.min(1, (innerWidth - 16) / fit.offsetWidth); fit.style.transform = `scale(${k})`; fit.style.marginBottom = `${(k - 1) * fit.offsetHeight}px`; fit.style.marginLeft = k < 1 ? `${(innerWidth - fit.offsetWidth) / 2}px` : 'auto'; };
+  size(); addEventListener('resize', size);
+</script>
+</body>
+</html>
